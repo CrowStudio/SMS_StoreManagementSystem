@@ -1,0 +1,15 @@
+{
+  "name": "rest_api_frontend_backend",
+  "version": "1.0.0",
+  "description": "REST API with fronend for webshop admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Arvidsson",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.4.3",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,355 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: rgb(33, 33, 33);
+}
+
+main {
+  flex: 1;
+}
+
+
+/* Headers
+################################################### */
+h1{
+  font-family: 'Stick No Bills', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.centeredHeader{ /* h2 */
+  text-align: center;
+}
+
+
+/* paragrafs
+################################################### */
+.buttonParagraf{
+  margin-top: 0;
+}
+
+.minType {
+  font-size: 80%;
+  margin-top: 0;  
+  margin-bottom: 2px;
+}
+
+.bottomParagraf{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+
+/* images 
+################################################### */
+.images{
+  margin-top: 10px;
+}
+
+
+/* divs
+################################################### */
+.headerDiv{
+  background-color: rgb(21, 19, 19);
+  width: 750px;
+  margin: -10px auto;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.banner{
+  background-color: rgb(128, 155, 118);
+  width: 730px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.content{
+  background-color: rgb(21, 19, 19);
+  width: 770px;
+  margin: 0 auto;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.buttonDiv {
+  background-color: rgb(21, 19, 19);
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 210px 540px;
+  height: 350px;
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  
+}
+
+.bodyDiv {
+  background-color: rgb(21, 19, 19);
+  display: grid;
+  grid-auto-flow: column;
+  grid-area: left;
+  grid-template-columns: 210px 540px;
+  min-height: 350px;
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.menu{
+  background-color: rgb(143, 143, 143);
+  width: 190px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.emptyDiv{
+  background-color: rgb(194, 194, 194);
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-image:url("images/warehouse.jpg");
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.innerDiv{
+  background-color: rgb(194, 194, 194);
+  float: left;
+  width: 500px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cardDiv {
+  background-color: rgb(242, 242, 242);
+  width: 490px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.houseDiv{
+  background-color: rgb(242, 242, 242);
+  width: 490px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.prodDiv {
+  background-color: rgb(242, 242, 242);
+  width: 490px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 80%;
+}
+
+.info{
+  display: none;
+  margin-bottom: 0;
+}
+
+.deleteB{
+  display: none;
+}
+
+
+/* buttons
+################################################### */
+button{
+  margin-bottom: 5px;
+  text-align: left;
+  width: 168px;
+  cursor: pointer;
+}
+
+.product_stock_button{
+  float: right;
+  margin-top: -24px;
+  margin-right: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+.show_stock_button{
+  float: right;
+  margin-top: -24px;
+  margin-right: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+.warehouse_stock_button{
+  float: right;
+  margin-top: -7px;
+  margin-right: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+.update_stock_button{
+  float: right;
+  margin-top: -26px;
+  margin-right: 15px;
+  width: auto;
+  cursor: pointer;
+}
+
+.delete_button1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+.delete_button2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+.cancel_button1{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+.cancel_button2{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+.cancel_button3{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+.cancel_button4{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+.submit{
+  width: auto;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.update{
+  float: right;
+  margin-top: -22px;
+  margin-right: 5px;
+  width: auto;
+  cursor: pointer;
+}
+
+
+/* forms
+################################################### */
+form {
+  float: left;
+  width: 500px;
+  margin: 0 auto;
+}
+
+form.update_stock_form{
+  float: none;
+  width: 500px;
+  margin-bottom: -10px
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  display: block;
+  margin-top: 5px;
+  width: 492px;
+}
+
+input.quant{
+  display: block;
+  margin-top: 5px;
+  width: 70px;
+}
+
+
+/* select
+################################################### */
+select {
+  margin-bottom: 5px;
+}
+
+
+/* drop-down
+################################################### */
+.dropdownW{
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.dropdownP{
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+
+/* footer
+################################################### */
+footer{
+  font-size: 70%;
+  text-align: center;
+  color: rgb(194, 194, 194);
+  max-width: 500px;
+  margin: 0 auto;
+}
